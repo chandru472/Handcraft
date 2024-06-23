@@ -23,7 +23,7 @@ const Product = () => {
                     </ImageListItem>
                 </Box>
                 <Box sx={{ width: { xs: '100%', sm: '45%', md: '48%' } }}>
-                    <Typography sx={{ textAlign: 'justify', letterSpacing: 1, fontSize: { xs: '1rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif',color:'#C0C0C0' }}>
+                    <Typography sx={{ textAlign: 'justify', letterSpacing: 0.5, fontSize: { xs: '1rem',sm:'0.9rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif',color:'#C0C0C0' }}>
                         Explore our exquisite range of handcrafted products, including photo frames, keychains, and bangles. Each piece is meticulously crafted, showcasing unique designs and intricate details. Perfect for adding a touch of elegance and personal flair, these items blend functionality with artistic expression. Discover the beauty and tradition of artisanal craftsmanship in every piece.
                     </Typography>
                 </Box>

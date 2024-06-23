@@ -470,44 +470,44 @@ const Bangle = () => {
                 </Grid>
             </Box>
 
-            <Box sx={{ mt: 4, mx: {xs:2,sm:4}, display: { xs: 'block', sm: 'flex', justifyContent: 'space-between', alignItems: 'center' } }}>
-                <Box sx={{ width: { xs: '100%', sm: '49%', md: '48%' }, p: 0 }}>
+            <Box sx={{ mt: 4, mx: {xs:2,sm:2}, display: { xs: 'block', sm: 'flex', justifyContent: 'space-between', alignItems: 'center' } }}>
+                <Box sx={{ width: { xs: '100%', sm: '50%', md: '48%' }, p: 0 }}>
                     <Swiper loop pagination={false}  style={{ border: '4px solid #800020', borderRadius: '20px', padding: 0 }}>
                         <SwiperSlide>
-                            <Box component='img' src={p1} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p1} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p2} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p2} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p3} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, objectFit: 'fill', display: 'block' }} />
+                            <Box component='img' src={p3} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, objectFit: 'fill', display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p4} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p4} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p5} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p5} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p6} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p6} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p7} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p7} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <Box component='img' src={p8} alt='p' sx={{ width: '100%', height: { xs: '275px', sm: '300px', md: '405px' }, display: 'block' }} />
+                            <Box component='img' src={p8} alt='p' sx={{ width: '100%', height: { xs: '250px', sm: '250px', md: '405px' }, display: 'block' }} />
                         </SwiperSlide>
                     </Swiper>
                 </Box>
 
-                <Box sx={{ width: { xs: '100%', sm: '49%', md: '48%' }, p: 0 }}>
+                <Box sx={{ width: { xs: '100%', sm: '45%', md: '48%' }, p: 0 }}>
 
                     <Typography
                         sx={{
@@ -517,6 +517,7 @@ const Bangle = () => {
                             color: "#800020",
                             letterSpacing: 0,
                             mt: 2,
+                            ml:{xs:1,sm:0}
                       
                       
                         }}
@@ -533,14 +534,15 @@ const Bangle = () => {
                    
                             color: '#C0C0C0',
                            
-                            mb:1
+                            mb:1,
+                            ml:{xs:1,sm:0}
                         }}
                     >
                         Starting at &#8377; 800
                     </Typography>
 
-                    <Typography sx={{ textAlign: 'justify', letterSpacing: 0, fontSize: { xs: '1rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif', color: '#C0C0C0' }}>
-                        Handcrafted bangles are a testament to artisanal skill, each piece uniquely designed with intricate patterns. Crafted from various materials like wood, metal, and beads, they add a touch of elegance to any outfit. These bangles reflect cultural heritage and tradition, making them timeless accessories. Perfect for both casual and formal wear, handcrafted bangles are cherished for their beauty and craftsmanship.
+                    <Typography sx={{ textAlign: 'justify', letterSpacing: 0.5, fontSize: { xs: '1rem',sm:'0.9rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif', color: '#C0C0C0' }}>
+                    Handcrafted bangles showcase artisanal skill with intricate designs, adding elegance to any outfit. Made from materials like wood and metal, they reflect cultural heritage and timeless beauty. Perfect for both casual and formal wear, these bangles are cherished accessories.
 
                     </Typography>
                 </Box>
