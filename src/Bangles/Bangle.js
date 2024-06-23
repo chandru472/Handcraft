@@ -48,7 +48,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p1}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' } }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' } }}
                             />
                             <Typography
                                 sx={{
@@ -101,7 +101,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p2}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' },  }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' },  }}
                             />
                             <Typography
                                 sx={{
@@ -154,7 +154,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p3}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -208,7 +208,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p4}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -261,7 +261,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p5}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -314,7 +314,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p6}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -368,7 +368,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p7}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -422,7 +422,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p8}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '200px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
