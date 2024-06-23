@@ -27,9 +27,9 @@ const Bangle = () => {
                 }}>Bangles</Typography>
             </Box>
 
-            <Box sx={{mx:{xs:0,sm:4},display:{xs:'block',sm:'block'}}}>
+            <Box sx={{mx:{xs:5,sm:4},display:{xs:'block',sm:'block'}}}>
                 <Grid container spacing={6} justifyContent="space-evenly">
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -82,7 +82,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -135,7 +135,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -189,7 +189,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -242,7 +242,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -295,7 +295,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -349,7 +349,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -403,7 +403,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={8} sm={6} md={3}>
+                    <Grid item xs={12} sm={6} md={3}>
                         <Box
                             sx={{
 
