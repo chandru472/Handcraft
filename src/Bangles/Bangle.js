@@ -27,7 +27,7 @@ const Bangle = () => {
                 }}>Bangles</Typography>
             </Box>
 
-            <Box sx={{mx:{xs:5,sm:4},display:{xs:'block',sm:'block'}}}>
+            <Box sx={{mx:{xs:2,sm:4},display:{xs:'block',sm:'block'}}}>
                 <Grid container spacing={6} justifyContent="space-evenly">
                     <Grid item xs={12} sm={6} md={3}>
                         <Box
