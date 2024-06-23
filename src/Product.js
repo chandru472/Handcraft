@@ -16,14 +16,14 @@ const Product = () => {
                 }}>Our Products</Typography>
             </Box>
 
-            <Box sx={{ mx: 4, mt: 4, display: { xs: 'block', sm: 'flex' }, justifyContent: 'space-between', alignItems: 'center' }}>
+            <Box sx={{ mx: {xs:2,md:4}, mt: 4, display: { xs: 'block', sm: 'flex' }, justifyContent: 'space-between', alignItems: 'center' }}>
                 <Box sx={{ width: { xs: '100%', sm: '50%', md: '48%' } }}>
                     <ImageListItem sx={{ border: '4px solid #800020', borderRadius: '20px' }}>
                         <img src={hand} alt='productphoto' style={{ borderRadius: '16px' }} />
                     </ImageListItem>
                 </Box>
                 <Box sx={{ width: { xs: '100%', sm: '45%', md: '48%' } }}>
-                    <Typography sx={{ textAlign: 'justify', letterSpacing: 1, fontSize: { xs: '0.9rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif' }}>
+                    <Typography sx={{ textAlign: 'justify', letterSpacing: 1, fontSize: { xs: '1rem', md: '1.3rem' }, mt: { xs: 3, sm: 0 }, fontFamily: 'sans-serif',color:'#C0C0C0' }}>
                         Explore our exquisite range of handcrafted products, including photo frames, keychains, and bangles. Each piece is meticulously crafted, showcasing unique designs and intricate details. Perfect for adding a touch of elegance and personal flair, these items blend functionality with artistic expression. Discover the beauty and tradition of artisanal craftsmanship in every piece.
                     </Typography>
                 </Box>
