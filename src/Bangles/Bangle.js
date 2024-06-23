@@ -9,6 +9,7 @@ import p6 from './photo6.jpg'
 import p7 from './photo7.jpg'
 import p8 from './photo8.jpg'
 
+
 const Bangle = () => {
     const theme = useTheme();
 
@@ -26,9 +27,9 @@ const Bangle = () => {
                 }}>Bangles</Typography>
             </Box>
 
-            <Box sx={{mx:4,display:{xs:'none',sm:'block'}}}>
-                <Grid container spacing={5} justifyContent="space-evenly">
-                    <Grid item xs={5.5} sm={5} md={3}>
+            <Box sx={{mx:{xs:0,sm:4},display:{xs:'block',sm:'block'}}}>
+                <Grid container spacing={6} justifyContent="space-evenly">
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -47,7 +48,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p1}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' } }}
                             />
                             <Typography
                                 sx={{
@@ -81,7 +82,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -100,7 +101,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p2}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' },  }}
                             />
                             <Typography
                                 sx={{
@@ -134,7 +135,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -153,7 +154,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p3}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -188,7 +189,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -207,7 +208,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p4}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -241,7 +242,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -260,7 +261,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p5}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -294,7 +295,7 @@ const Bangle = () => {
                         </Box>
                     </Grid>
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -313,7 +314,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p6}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -348,7 +349,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -367,7 +368,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p7}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
@@ -402,7 +403,7 @@ const Bangle = () => {
                     </Grid>
 
 
-                    <Grid item xs={5.5} sm={5} md={3}>
+                    <Grid item xs={8} sm={6} md={3}>
                         <Box
                             sx={{
 
@@ -421,7 +422,7 @@ const Bangle = () => {
                                 component='img'
                                 src={p8}
                                 alt='p'
-                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '247px' }, objectFit: 'cover' }}
+                                sx={{ borderTopRightRadius: '12px', borderTopLeftRadius: '12px', width: '100%', height: { xs: '150px', sm: '225px' }, objectFit: 'cover' }}
                             />
                             <Typography
                                 sx={{
